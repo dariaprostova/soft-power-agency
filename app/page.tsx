@@ -115,19 +115,16 @@ export default function Home() {
 
       <section className="possibilities">
         <div className="shell possibilitiesHead">
-          <div className="sectionIndex">03 / What we can build</div>
+          <div className="sectionIndex">03 / Our dream briefs</div>
           <div>
-            <h2>Bring us a format<br /><em>or a human ambition</em></h2>
-            <p>You can come with a defined event, a place still being imagined or simply the feeling you want people to leave with</p>
+            <h2>The kind of questions<br /><em>we dream about</em></h2>
+            <p>Not a service menu, but a glimpse into the scale, imagination and human ambition that make us want to begin</p>
           </div>
         </div>
         <div className="shell possibilityGrid">
-          <article><span>01</span><h3>Corporate events</h3><p>Company milestones, team celebrations and offsites that strengthen culture rather than fill a calendar</p></article>
-          <article><span>02</span><h3>A city of the future</h3><p>The architecture of human experience for a new city or development — how people arrive, gather, restore, learn and belong</p></article>
-          <article><span>03</span><h3>Online or live productions</h3><p>A complete creative and production journey for a launch, performance or cultural commission — like The Nutcracker for BCS</p></article>
-          <article><span>04</span><h3>Hotel guest journeys</h3><p>A distinctive consumer experience across arrival, rooms, rituals, wellbeing, hospitality and the memory guests take home</p></article>
-          <article><span>05</span><h3>Large-scale conferences</h3><p>Meaning, programming, scenography, speakers, transitions and audience energy designed as one coherent arc</p></article>
-          <article><span>06</span><h3>Campaigns people can enter</h3><p>A series of coworking experiences for young founders as an image and community campaign for an AI company</p></article>
+          <article><span>01</span><h3>Design a city of the future</h3><p>Imagine its human experience from the ground up — how people arrive, gather, restore, learn, celebrate and belong</p></article>
+          <article><span>02</span><h3>Produce a conference unlike any other</h3><p>Turn a complex idea into one coherent journey across programming, space, speakers, art, transitions and audience energy</p></article>
+          <article><span>03</span><h3>Create a founder series for an AI company</h3><p>Build a sequence of live experiences where young entrepreneurs meet, make and grow — as an image and community campaign people genuinely value</p></article>
         </div>
       </section>
 
@@ -167,7 +164,7 @@ export default function Home() {
           <div className="sectionIndex light">04 / Founder</div>
           <div className="founderTitle">
             <span>Dasha Prostova</span>
-            <h2>Experience Director<br />Founder of Soft Power</h2>
+            <h2>Experience Architect<br />Founder of Soft Power</h2>
           </div>
           <div className="founderQuote">
             “Beauty is never decoration. It is a way to move people — towards aliveness,
@@ -187,7 +184,7 @@ export default function Home() {
             </p>
           </div>
           <figure className="founderPortrait">
-            <img src="/portfolio/Dasha__823.jpg" alt="Dasha Prostova, Founder and Experience Director of Soft Power Agency" loading="lazy" />
+            <img src="/portfolio/Dasha__823.jpg" alt="Dasha Prostova, Founder and Experience Architect of Soft Power Agency" loading="lazy" />
             <figcaption>Dasha Prostova · Lisbon, Portugal</figcaption>
           </figure>
         </div>
