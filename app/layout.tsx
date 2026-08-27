@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import "./globals.css";
+import { CookieConsent } from "./components/CookieConsent";
 
 const title = "Soft Power Agency — Experiences People Carry With Them";
 const description = "An independent experience agency founded by Dasha Prostova. We create events, spaces and cultural moments that shape how people feel.";
@@ -21,5 +22,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}</body></html>;
+  return <html lang="en"><body>{children}<CookieConsent /></body></html>;
 }
