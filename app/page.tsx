@@ -41,6 +41,13 @@ const work = [
     text: "A one-night experience for 100 people in a historic theatre — where movement, live music, architecture and collective presence became one emotional arc.",
     note: "Lisbon · 100 guests",
   },
+  {
+    id: "ballet",
+    eyebrow: "Brand commission · Digital performance",
+    title: "The Nutcracker / BCS",
+    text: "An immersive online ballet created for BCS Bank with artists of the Mariinsky Theatre — translating a familiar cultural story into a complete digital experience.",
+    note: "Film · Performance · Brand experience",
+  },
 ];
 
 export default function Home() {
@@ -111,10 +118,17 @@ export default function Home() {
         <div className="workGrid shell">
           {work.map((item, index) => (
             <article className={`case case-${item.id}`} key={item.id}>
-              <div className="caseVisual" aria-hidden="true">
+              <div className={`caseVisual media-${item.id}`}>
+                {item.id === "nike" && <iframe src="https://www.youtube.com/embed/3haW1zE8Fx0" title="Nike Box MSK project recap" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy" />}
+                {item.id === "ballet" && <iframe src="https://www.youtube.com/embed/oTWI87UVINc" title="The Nutcracker immersive online ballet recap" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy" />}
+                {item.id === "sekta" && <div className="sektaGallery">
+                  {[1,2,3,4,5].map((photo) => <img key={photo} src={`/portfolio/sekta-${photo}.jpg`} alt={`Sektaschool Moscow experience ${photo}`} loading="lazy" />)}
+                </div>}
+                {item.id === "theatre" && <a className="theatreMedia" href="https://www.instagram.com/reel/DRw_kcOCOk0/" target="_blank" rel="noreferrer" aria-label="Watch the Soft Power immersive theatre experience on Instagram">
+                  <img src="/portfolio/immersive-yoga.jpg" alt="Soft Power immersive movement experience in a historic theatre" loading="lazy" />
+                  <span className="play">Watch experience ↗</span>
+                </a>}
                 <span className="caseCount">0{index + 1}</span>
-                <div className="visualWord">{item.id === "nike" ? "MOVE" : item.id === "sekta" ? "12×" : "ONE"}</div>
-                <div className="visualSub">{item.id === "nike" ? "body / city / culture" : item.id === "sekta" ? "spaces across moscow" : "room / shared rhythm"}</div>
               </div>
               <div className="caseCopy">
                 <div className="eyebrow">{item.eyebrow}</div>
@@ -151,6 +165,10 @@ export default function Home() {
               for each commission.
             </p>
           </div>
+          <figure className="founderPortrait">
+            <img src="/portfolio/Dasha__823.jpg" alt="Dasha Prostova, Founder and Experience Director of Soft Power Agency" loading="lazy" />
+            <figcaption>Dasha Prostova · Lisbon, Portugal</figcaption>
+          </figure>
         </div>
         <div className="proof shell" aria-label="Experience highlights">
           <div><strong>15+</strong><span>years shaping human experience</span></div>
