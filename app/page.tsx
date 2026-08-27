@@ -37,7 +37,7 @@ const work = [
   {
     id: "theatre",
     eyebrow: "Soft Power Original · Immersive performance",
-    title: "The Old Theatre",
+    title: "Immersive Yoga Celebration",
     text: "A one-night experience for 100 people in a historic theatre — where movement, live music, architecture and collective presence became one emotional arc.",
     note: "Lisbon · 100 guests",
   },
