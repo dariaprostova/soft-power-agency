@@ -240,7 +240,7 @@ export default function Home() {
             <a className="bigCta" href="mailto:dariaprostova@gmail.com?subject=Soft%20Power%20Agency%20project">
               Tell Dasha about it <span>↗</span>
             </a>
-            <p className="altContact"><a href="mailto:dariaprostova@gmail.com">dariaprostova@gmail.com</a> · <a href="https://www.linkedin.com/in/dashaprostova/" target="_blank" rel="noreferrer">LinkedIn ↗</a></p>
+            <p className="altContact"><a href="mailto:dariaprostova@gmail.com">dariaprostova@gmail.com</a> · <a href="https://wa.me/351914956948?text=Hi%20Dasha%2C%20I%27d%20like%20to%20talk%20about%20a%20Soft%20Power%20Agency%20project" target="_blank" rel="noreferrer">WhatsApp ↗</a> · <a href="https://www.linkedin.com/in/dashaprostova/" target="_blank" rel="noreferrer">LinkedIn ↗</a></p>
           </div>
         </div>
         <div className="shell footerBottom">
