@@ -68,6 +68,14 @@ h2 em { font-family:Georgia,serif; font-weight:400; }
 .caseCopy h3 { font-size:48px; letter-spacing:-.055em; line-height:1; margin:20px 0 28px; }
 .caseCopy p { color:#c9c9c3; font-size:18px; line-height:1.5; max-width:480px; }
 .caseCopy small { display:block; margin-top:34px; color:var(--acid); text-transform:uppercase; letter-spacing:.1em; }
+.testimonials { background:#cfcfc8; padding:120px 0 135px; }
+.testimonialsHead { display:grid; grid-template-columns:1fr 3fr; gap:30px; margin-bottom:85px; }
+.testimonialsHead h2 { font-size:clamp(52px,7vw,102px); line-height:.93; letter-spacing:-.055em; margin:0; }
+.testimonialsHead h2 em { color:var(--blue); }
+.testimonialGrid { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--ink); border-left:1px solid var(--ink); }
+.testimonialGrid blockquote { min-height:330px; margin:0; padding:28px; border-right:1px solid var(--ink); border-bottom:1px solid var(--ink); display:flex; flex-direction:column; }
+.testimonialGrid p { font-family:Georgia,serif; font-size:24px; line-height:1.25; margin:0; }
+.testimonialGrid footer { margin-top:auto; padding-top:50px; font-size:11px; line-height:1.45; text-transform:uppercase; letter-spacing:.09em; }
 .founder { background:var(--blue); color:white; padding:120px 0 0; }
 .founderGrid { grid-template-rows:auto auto; }
 .founderTitle span { display:block; text-transform:uppercase; font-size:12px; letter-spacing:.12em; margin-bottom:18px; }
@@ -148,6 +156,11 @@ h2 em { font-family:Georgia,serif; font-weight:400; }
   .case:nth-child(even) .caseVisual { order:0; }
   .caseVisual { aspect-ratio:1.2; }
   .caseCopy h3 { font-size:39px; }
+  .testimonials { padding:80px 0; }
+  .testimonialsHead { grid-template-columns:1fr; margin-bottom:55px; }
+  .testimonialsHead h2 { font-size:53px; }
+  .testimonialGrid { grid-template-columns:1fr; }
+  .testimonialGrid blockquote { min-height:280px; }
   .founderTitle h2 { font-size:55px; }
   .founderQuote,.founderBio { grid-column:1; }
   .founderQuote { font-size:29px; }

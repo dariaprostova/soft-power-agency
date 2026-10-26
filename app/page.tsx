@@ -27,15 +27,15 @@ const work = [
     id: "nike",
     eyebrow: "Brand space · Community · Culture",
     title: "Nike / Nike Box MSK",
-    text: "Leading a landmark brand space and international projects across campaigns, partnerships and live experiences — with large budgets and multidisciplinary production teams",
-    note: "Selected details remain confidential",
+    text: "Five years on Nike’s brand team: led Nike Box MSK from the design stage to the centre’s closure in 2022, built and managed the venue team, led sports partnerships and integrations, and delivered international productions and global campaigns locally",
+    note: "2017–2022 · Moscow",
   },
   {
     id: "sekta",
     eyebrow: "Business building · Experience at scale",
     title: "Sektaschool Moscow",
-    text: "Built the Moscow operation from zero as CEO: 12 spaces, a team of 50+ and a city-wide community shaped around movement, belonging and shared momentum",
-    note: "From one idea to a living system",
+    text: "Built the Moscow operation from zero as CEO: a team of 50+, 12 studios across the city, collaborations with Afisha, Vogue and Condé Nast, and a major partnership with Nike",
+    note: "2013–2016 · From one idea to a living system",
   },
   {
     id: "theatre",
@@ -65,7 +65,7 @@ export default function Home() {
           <a href="#work">Work</a>
           <a href="#about">About</a>
         </nav>
-        <a className="navCta" href="https://t.me/beloved_dasha" target="_blank" rel="noreferrer">
+        <a className="navCta" href="mailto:dariaprostova@gmail.com?subject=Soft%20Power%20Agency%20project">
           Start a project ↗
         </a>
       </header>
@@ -160,9 +160,30 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="testimonials">
+        <div className="shell testimonialsHead">
+          <div className="sectionIndex">05 / What people carry with them</div>
+          <h2>Care felt<br /><em>in every detail</em></h2>
+        </div>
+        <div className="shell testimonialGrid">
+          <blockquote>
+            <p>“The whole space and the people around were like puzzle pieces from the same box. Everything felt so harmonious — a truly unique experience”</p>
+            <footer>Anya Churkina · Soft Power retreat guest</footer>
+          </blockquote>
+          <blockquote>
+            <p>“You can feel the careful preparation and attention to detail. It says so much about the strength of the experience — I left wanting to return”</p>
+            <footer>Masha Ivanova · Soft Power retreat guest</footer>
+          </blockquote>
+          <blockquote>
+            <p>“Beautiful organisation down to the smallest detail. The programme was full without ever feeling overwhelming — every moment felt exactly in its place”</p>
+            <footer>Valeria Potashko · Soft Power retreat guest</footer>
+          </blockquote>
+        </div>
+      </section>
+
       <section className="founder" id="about">
         <div className="shell founderGrid">
-          <div className="sectionIndex light">05 / Founder</div>
+          <div className="sectionIndex light">06 / Founder</div>
           <div className="founderTitle">
             <span>Dasha Prostova</span>
             <h2>Experience Architect<br />Founder of Soft Power</h2>
@@ -199,7 +220,7 @@ export default function Home() {
       </section>
 
       <section className="values shell">
-        <div className="sectionIndex">06 / Our filter</div>
+        <div className="sectionIndex">07 / Our filter</div>
         <div className="valuesBody">
           <h2>For those moving<br /><em>humanity forward</em></h2>
           <p>
@@ -213,13 +234,13 @@ export default function Home() {
 
       <footer className="footer">
         <div className="shell footerGrid">
-          <div className="sectionIndex light">07 / Let&apos;s make it real</div>
+          <div className="sectionIndex light">08 / Let&apos;s make it real</div>
           <div>
             <h2>Have a feeling you<br />want people to remember?</h2>
-            <a className="bigCta" href="https://t.me/beloved_dasha" target="_blank" rel="noreferrer">
+            <a className="bigCta" href="mailto:dariaprostova@gmail.com?subject=Soft%20Power%20Agency%20project">
               Tell Dasha about it <span>↗</span>
             </a>
-            <p className="altContact">Or write to <a href="mailto:dariaprostova@gmail.com">dariaprostova@gmail.com</a> · <a href="https://www.linkedin.com/in/dashaprostova/" target="_blank" rel="noreferrer">LinkedIn ↗</a></p>
+            <p className="altContact"><a href="mailto:dariaprostova@gmail.com">dariaprostova@gmail.com</a> · <a href="https://www.linkedin.com/in/dashaprostova/" target="_blank" rel="noreferrer">LinkedIn ↗</a></p>
           </div>
         </div>
         <div className="shell footerBottom">
