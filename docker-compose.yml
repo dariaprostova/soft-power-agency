@@ -1,0 +1,17 @@
+# Стек сайта агентства: один контейнер с prod-сервером vinext.
+# Состояния нет — базы и загрузок сайт не имеет, контейнер можно удалять и
+# поднимать заново в любой момент. Окружение задаётся файлом .env рядом
+# (COMPOSE_PROJECT_NAME, порт), поэтому один файл поднимает и staging, и prod.
+
+services:
+  web:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "${WEB_BIND:-127.0.0.1}:${WEB_PORT:?нужен порт сайта в .env}:8080"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8080/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
