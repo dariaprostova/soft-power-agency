@@ -92,6 +92,9 @@ h2 em { font-family:Georgia,serif; font-weight:400; }
 .footerGrid h2 { font-size:clamp(56px,7vw,105px); line-height:.9; letter-spacing:-.06em; margin:0 0 80px; }
 .bigCta { display:flex; justify-content:space-between; border-top:1px solid white; border-bottom:1px solid white; padding:25px 0; font-size:26px; transition:.2s; }
 .bigCta:hover { color:var(--acid); }
+.altContact { margin:22px 0 0; font-size:17px; opacity:.8; }
+.altContact a { text-decoration:underline; text-underline-offset:3px; }
+.priceLine { margin:28px 0 0; font-size:17px; line-height:1.5; }
 .footerBottom { margin-top:130px; border-top:1px solid #555; padding-top:25px; display:grid; grid-template-columns:1fr 1fr 1fr; align-items:end; font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
 .wordmark.inverse span { color:var(--acid); }
 .footerBottom div:nth-child(2) { text-align:center; }

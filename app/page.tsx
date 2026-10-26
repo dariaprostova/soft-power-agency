@@ -110,6 +110,7 @@ export default function Home() {
               <div className="tags">{service.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
             </article>
           ))}
+          <p className="priceLine">Team sessions from €500 · Strategy sessions from €600 · 2-week concept sprints from €2,500 · Turnkey experiences from €8,000</p>
         </div>
       </section>
 
@@ -130,7 +131,7 @@ export default function Home() {
 
       <section className="work" id="work">
         <div className="shell workHead">
-          <div className="sectionIndex">03 / Selected experience</div>
+          <div className="sectionIndex">04 / Selected experience</div>
           <h2>Scale, leadership<br />and an <em>authored eye</em></h2>
         </div>
         <div className="workGrid shell">
@@ -161,7 +162,7 @@ export default function Home() {
 
       <section className="founder" id="about">
         <div className="shell founderGrid">
-          <div className="sectionIndex light">04 / Founder</div>
+          <div className="sectionIndex light">05 / Founder</div>
           <div className="founderTitle">
             <span>Dasha Prostova</span>
             <h2>Experience Architect<br />Founder of Soft Power</h2>
@@ -174,8 +175,9 @@ export default function Home() {
             <p>
               Dasha has spent 15+ years building experiences across wellbeing, sport,
               startups and global brands. She led Sektaschool Moscow as CEO, worked in
-              Nike&apos;s brand team, and built Soft Power into an international community
-              of more than 2,000 people
+              Nike&apos;s brand team, and built Soft Power — a wellbeing brand with more
+              than 5,000 people practising worldwide. For its first years Soft Power
+              worked with individuals; now it brings the same approach to companies
             </p>
             <p>
               Her work joins business thinking and embodied intelligence. She leads the
@@ -192,12 +194,12 @@ export default function Home() {
           <div><strong>15+</strong><span>years shaping human experience</span></div>
           <div><strong>50+</strong><span>people led in one team</span></div>
           <div><strong>12</strong><span>spaces launched in Moscow</span></div>
-          <div><strong>2K+</strong><span>people in our global community</span></div>
+          <div><strong>5K+</strong><span>people practising with Soft Power</span></div>
         </div>
       </section>
 
       <section className="values shell">
-        <div className="sectionIndex">05 / Our filter</div>
+        <div className="sectionIndex">06 / Our filter</div>
         <div className="valuesBody">
           <h2>For those moving<br /><em>humanity forward</em></h2>
           <p>
@@ -211,12 +213,13 @@ export default function Home() {
 
       <footer className="footer">
         <div className="shell footerGrid">
-          <div className="sectionIndex light">06 / Let&apos;s make it real</div>
+          <div className="sectionIndex light">07 / Let&apos;s make it real</div>
           <div>
             <h2>Have a feeling you<br />want people to remember?</h2>
             <a className="bigCta" href="https://t.me/beloved_dasha" target="_blank" rel="noreferrer">
               Tell Dasha about it <span>↗</span>
             </a>
+            <p className="altContact">Or write to <a href="mailto:dariaprostova@gmail.com">dariaprostova@gmail.com</a> · <a href="https://www.linkedin.com/in/dashaprostova/" target="_blank" rel="noreferrer">LinkedIn ↗</a></p>
           </div>
         </div>
         <div className="shell footerBottom">
